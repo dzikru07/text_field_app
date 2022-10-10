@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
             final snackBar = SnackBar(
               content: Text(_newPass.text == _repPass.text
                   ? 'Login Success'
-                  : 'Password not same'),
+                  : 'passwords are not the same'),
               action: SnackBarAction(
                 label: 'Ok',
                 onPressed: () {
